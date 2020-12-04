@@ -1,6 +1,8 @@
 import os
 from flask import Flask, request
 
+import db
+
 app = Flask(__name__)
 app.debug = True 
 db.set_game_state(1, 2);
